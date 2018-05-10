@@ -1,0 +1,67 @@
+DROP TABLE IF EXISTS Dog;
+CREATE TABLE Dog(
+ Url  VARCHAR(40) primary key,
+ Title    VARCHAR(200),
+ One VARCHAR(30),
+ Two   VARCHAR(30));
+
+INSERT INTO Dog VALUES('https://i.imgur.com/EIROWUH.jpg', 'Be afraid.. be very afraid!', 'dog', 'funny');
+INSERT INTO Dog VALUES('https://i.imgur.com/1ssAvOF.jpg', 'Hey you! Come here and rub my belly', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/SYxSn67.jpg', 'Too much tequila', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/79KfVLh.jpg', 'Happy Boy.', 'dog', 'funny');
+INSERT INTO Dog VALUES('https://i.imgur.com/Npvc3q3.jpg', 'Pizza Party!', 'dog', 'funny');
+INSERT INTO Dog VALUES('https://i.imgur.com/dd1L3vo.jpg', 'My anxiety has been reving up so I decided to go to the dog park. Wasn''t disappointed.', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/WbSRuMF.jpg', 'Fluffy boi', 'dog', 'aww');
+INSERT INTO Dog VALUES('https://i.imgur.com/DnBm6C1.jpg', 'A Happy Schnauzer In the Wild', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/Y26bFRt.jpg', 'Nice to spot to roll around', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/XNybY5q.jpg', 'Still Life with Dogs', 'dog', 'creativity');
+INSERT INTO Dog VALUES('https://i.imgur.com/zPKuI9c.jpg', 'when you forget to do your homework and it''s already 9pm', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/xJJwfc6.jpg', 'Pups Puppertins Mcgruff', 'dog', 'awesome');
+INSERT INTO Dog VALUES('https://i.imgur.com/lngtazS.jpg', 'I miss doggos', 'dog', 'funny');
+INSERT INTO Dog VALUES('https://i.imgur.com/WiBIMQ9.jpg', 'Cupid doesn’t get along with Thor...', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/9PF8F5x.jpg', 'Puppy looks into your soul', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/OhRsxqx.jpg', 'hdhdakfjejjs', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/dfLFLc1.jpg', 'No wonder I''m single...', 'dog', 'funny');
+INSERT INTO Dog VALUES('http://i.imgur.com/NaQEU6Ch.gif', '''Have you finished with that?''', 'dog', 'funny');
+INSERT INTO Dog VALUES('https://i.imgur.com/RmsYFeV.jpg', 'Ignoramuses', 'dog', 'funny');
+INSERT INTO Dog VALUES('http://i.imgur.com/jP2NvVth.gif', 'Dog tries a high five', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/xU5edrI.jpg', 'Chris Cornell of Soundgarden and his dog Bill', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/pXPLNoh.jpg', 'Is nice doggo', 'dog', 'aww');
+INSERT INTO Dog VALUES('https://i.imgur.com/OYIRwFZ.jpg', 'Our three legged pup Pi', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/ixfqaHx.jpg', 'MFW people ask how finals are going.', 'dog', 'aww');
+INSERT INTO Dog VALUES('https://i.imgur.com/OmHDAQs.jpg', 'I know you like it :)', 'dog', 'funny');
+INSERT INTO Dog VALUES('https://i.imgur.com/kxrtudu.jpg', 'Helpful for new dog owners', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/Yf1x9XQ.jpg', 'Bad few days', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/YJ2b8vv.jpg', 'TIL these exist.  They''re called raccoon dogs', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/V7Gt8LK.jpg', 'Wow amazing doggo. Love the little booties on him.', 'dog', 'None');
+INSERT INTO Dog VALUES('http://i.imgur.com/w3awyO5h.gif', 'Friends show trapped dog how to escape.', 'dog', 'funny');
+INSERT INTO Dog VALUES('https://i.imgur.com/apYnIWC.jpg', 'Albino Doberman pinscher.', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/IRoWmR4.jpg', 'Cinco de puggo', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/ufuZlBr.jpg', 'New Toy Box!', 'dog', 'aww');
+INSERT INTO Dog VALUES('https://i.imgur.com/ekyZ7vc.jpg', 'Imgur.. meet Captain!', 'dog', 'aww');
+INSERT INTO Dog VALUES('https://i.imgur.com/ZC13Ks2.jpg', 'It’s This Good Boy’s First Birthday Today!', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/jp3xNeE.jpg', 'Happiness is:', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/JFiUxDk.jpg', 'Oh....Just watch her innocent look...So Sweet..', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/FsGqUZS.jpg', 'NOPE NOPE', 'dog', 'aww');
+INSERT INTO Dog VALUES('https://i.imgur.com/kQbGhvt.jpg', 'What do you think of this photo? Need reviews.', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/S22rOqr.jpg', 'This is what I see every time I come out from my bedroom in the morning.', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/MDX8DY7.jpg', 'Hello! I''m Ringo! I was just adopted!', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/AktpMT7.jpg', 'Diesel', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/AAgid5H.jpg', '(*´∀`)♪', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/566gQ8U.jpg', 'It''s been almost 4 months since this little angel came into my life and we could not be happier together. :)', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/6cpZy3N.jpg', 'Women Crush Wednesday ????', 'dog', 'aww');
+INSERT INTO Dog VALUES('https://i.imgur.com/WolF7Py.jpg', 'Eve - our boston', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/v48wuuZ.jpg', 'Thinking at night', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/wJNvsAr.jpg', 'Life of Pi', 'dog', 'funny');
+INSERT INTO Dog VALUES('https://i.imgur.com/GQ0s7GI.jpg', 'Double Kill', 'dog', 'aww');
+INSERT INTO Dog VALUES('https://i.imgur.com/9IyOZCg.jpg', 'Vanishing Veggies', 'dog', 'funny');
+INSERT INTO Dog VALUES('https://i.imgur.com/Bo22pxZ.jpg', '2 Labs.. 1 Weim', 'dog', 'aww');
+INSERT INTO Dog VALUES('https://i.imgur.com/WIRC9qz.jpg', 'Somebody wasn’t a fan of the car wash today.', 'dog', 'aww');
+INSERT INTO Dog VALUES('https://i.imgur.com/zqDjVf8.jpg', 'Snoop got In-n-Out for the first time', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/cjAXqAo.gif', 'The goodest boy gets the bestest treats', 'dog', 'awesome');
+INSERT INTO Dog VALUES('https://i.imgur.com/D6EnPBc.jpg', 'The one eared wonder', 'dog', 'None');
+INSERT INTO Dog VALUES('https://i.imgur.com/KrRrQzX.jpg', 'Heck’n Fro', 'dog', 'None');
+INSERT INTO Dog VALUES('http://i.imgur.com/mvikVYhh.gif', 'Newf plays hide-and-seek. He''s not very good.', 'dog', 'aww');
+INSERT INTO Dog VALUES('https://i.imgur.com/juqkZDr.jpg', 'Some gifs for a better day', 'dog', 'aww');
+INSERT INTO Dog VALUES('https://i.imgur.com/IfjC1LK.jpg', 'Nothing.. just my dog.. rescued.. smiling and happy as fuck', 'dog', 'aww');
+INSERT INTO Dog VALUES('https://i.imgur.com/KVx0is2.jpg', 'Monorail Cat', 'dog', 'None');

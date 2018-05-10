@@ -9,10 +9,13 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 .w3-bar-block .w3-bar-item {padding:20px}
 * {box-sizing: border-box;}
+h4 {
+  background-color: #33D1FF;
+}
 
 #myInput {
   width: 100%;
-  font-size: 16px;
+  font-size: 20px;
   padding: 12px 20px 12px 40px;
   border: 2px solid #ccc;
   margin-bottom: 12px;
@@ -22,7 +25,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 
 <!-- Top menu -->
 <div class="w3-top">
-  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+  <div class="w3-white w3-xxlarge" style="max-width:1200px;margin:auto">
     <div class="w3-center w3-padding-16">David's Stash</div>
   </div>
 </div>
@@ -57,7 +60,7 @@ if (count($tables) != 0) {
       $tmp = $row['Url'];
       $tmp2 = $row['Title'];
       echo '<img src='.$tmp.' style="width:100%">';
-      echo '<h3>'.$tmp2.'</h3>';
+      echo '<h4>'.$tmp2.'</h4>';
       echo '</div>';
     }
   }
@@ -66,66 +69,6 @@ echo '</div>';
 echo '</div>';
 
 ?>
-<!-- !PAGE CONTENT! -->
-<!--
-<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:50px">
--->
-  <!-- First Photo Grid-->
-<!--
-  <div class="w3-row-padding w3-padding-16 w3-center">
-    <div class="w3-quarter">
-      <img src="https://i.imgur.com/H37kxPH.jpg" style="width:100%">
-      <h3>I bought a beer cozy that looks like a ballistic vest and it fits on my dog</h3>
-    </div>
-    <div class="w3-quarter">
-      <img src="https://i.imgur.com/H37kxPH.jpg" alt="Steak" style="width:100%">
-      <h3>What Is Taking So Long David San</h3>
-    </div>
-    <div class="w3-quarter">
-      <img src="https://i.imgur.com/H37kxPH.jpg" alt="Cherries" style="width:100%">
-      <h3>Im Done With This Final Project</h3>
-    </div>
-    <div class="w3-quarter">
-      <img src="https://i.imgur.com/H37kxPH.jpg" alt="Pasta and Wine" style="width:100%">
-      <h3>No Answer In Piazza Feels Good</h3>
-    </div>
-   </div>
- 
-  </div>
- --> 
-  <!-- Second Photo Grid-->
-<!--
-  <div class="w3-row-padding w3-padding-16 w3-center">
-    <div class="w3-quarter">
-      <img src="https://i.imgur.com/H37kxPH.jpg" alt="Popsicle" style="width:100%">
-      <h3>All I Need Is Love??</h3>
-    </div>
-    <div class="w3-quarter">
-      <img src="https://i.imgur.com/H37kxPH.jpg" alt="Salmon" style="width:100%">
-      <h3>Love Is All I Need!!</h3>
-    </div>
-    <div class="w3-quarter">
-      <img src="https://i.imgur.com/H37kxPH.jpg" alt="Sandwich" style="width:100%">
-      <h3>Nice Meme Bro David Cant Find It</h3>
-    </div>
-    <div class="w3-quarter">
-      <img src="https://i.imgur.com/H37kxPH.jpg" alt="Croissant" style="width:100%">
-      <h3>No Love For David. Forever Alone</h3>
-    </div>
-  </div>
--->
-  <!-- Pagination
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
-    </div>
-  </div> -->
-</div>
 
 <script>
 
@@ -134,35 +77,4 @@ echo '</div>';
 </body>
 </html>
 
-<!--
-<head>
-    <title>David's Stash</title>
-</head>
 
-<body>
-
-<?php
-/*
-include 'open.php';
-
-    echo '<!DOCTYPE html>';
-    echo '<html>';
-    echo '<head>';
-    echo '<style>';
-    echo 'img { 
-	      width:200;
-              height:200;
-          }';
-    echo '</style>';
-    echo '</head>';
-    echo '<body>';
-    $image = 'https://i.imgur.com/H37kxPH.jpg';
-    $imageData = base64_encode(file_get_contents($image));
-    echo '<img src="data:image/jpeg;base64,'.$imageData.'">';
-    echo '</body>';
-    echo '</html>';
- */
-?>
-
-</body>
--->

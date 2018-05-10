@@ -1,0 +1,67 @@
+DROP TABLE IF EXISTS Science_and_tech;
+CREATE TABLE Science_and_tech(
+ Url  VARCHAR(40) primary key,
+ Title    VARCHAR(200),
+ One VARCHAR(30),
+ Two   VARCHAR(30));
+
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/EMB079D.jpg', '.', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/GjFydPE.jpg', 'Version 2.0', 'science_and_tech', 'funny');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/YXsoQR2.jpg', 'You should cancel your plans on Wednesday.. 5 billion years from now...', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/rH81UVu.gif', 'Spokes on Saturn''s rings.. seen by Cassini (2008)', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/ciJTyrU.gif', 'has science gone too far?', 'science_and_tech', 'funny');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/DigKOJx.jpg', 'Graduate teacher needs ideas for struggling class.', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/fqQoVVC.jpg', 'Timeline of the Future', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/XZtRVi2.jpg', 'Finally done!', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/VicvzHx.jpg', 'LEGO Rocket Garden', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/HzQ2Av1.jpg', 'Oh my!', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('http://i.imgur.com/3TTqGqNh.gif', 'Mercury Maze', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/jza8775.jpg', 'Calcium distilled crystal', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/dgOim7y.jpg', 'Friendly reminder', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/JjA4HLG.jpg', 'Hear the voice of Alexander Graham Bell', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/LfHnlgZ.jpg', 'Do you smell something?', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/1u3p0bc.jpg', 'Hats off to one of Humanities greatest allies', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/mtGuB8Q.jpg', 'NASA''s InSight lander was launched on a mission bound for Mars! It is scheduled to arrive at the red planet in November. ', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/0jAilks.jpg', '#Provaxx.', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/k4yIJ6h.jpg', 'Olympics just got 100% better', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/eUKPMDS.jpg', 'Growing Up Tech', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/PyMeH71.jpg', 'Just Curious', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/ZKZvqcL.jpg', 'Backards', 'science_and_tech', 'funny');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/4Q1fS3x.jpg', 'Rain-Activated Street Art', 'science_and_tech', 'creativity');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/iTXhPDk.gif', 'Human No problem', 'science_and_tech', 'funny');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/IzpbemW.jpg', 'Part 5 of my Solar System Cross-stitch', 'science_and_tech', 'creativity');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/jPWl7lU.jpg', 'SAFE Hammering!', 'science_and_tech', 'creativity');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/yYyFz29.jpg', 'Fast food delivered to your window. 1950''s USA.', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/5drvqpv.jpg', 'Almost perfect.', 'science_and_tech', 'funny');
+INSERT INTO Science_and_tech VALUES('http://i.imgur.com/09NpePJh.gif', 'Magnetic Field Viewer', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/VTnyo5f.gif', 'Now THIS is Pod Racing!', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/CU9HaJC.jpg', '3D printed airless bicycle tire', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/eS6Yer5.jpg', 'Seattle''s Secret Scavenger Hunt', 'science_and_tech', 'creativity');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/4Br9op4.jpg', 'Scientists at NC State have their hand on the button of Hogzillageddon...', 'science_and_tech', 'funny');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/N1sV23d.mp4', 'New ''Blade Runner'' LED display ', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/s4K2L02.jpg', 'Mind Blowing Scientific Facts', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/uCUXWWD.jpg', 'Looks like Sid from Toy Story is back at it again.', 'science_and_tech', 'funny');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/9p22skg.jpg', 'Science.. bitches!!', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/tjowroA.jpg', 'Never Wet is awesome!!!', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/nxPlSxU.jpg', 'Science in Fallout --> institute teleportation', 'science_and_tech', 'gaming');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/AfF3ahM.jpg', 'Earth from Apollo 15', 'science_and_tech', 'inspiring');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/UtuWh1f.jpg', 'Fasting for 24h reverses the age-related loss of functionality in the intestinal stem cells of aged mice.', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/4fyekG3.jpg', 'WOW', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/8SekPGl.jpg', 'Mr Harley and Mr Davidson.', 'science_and_tech', 'creativity');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/JwkzYn0.jpg', 'That''s one fast boy.', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/FmVbQQd.gif', 'Magnetic field viewer that uses iron filings suspended in oil to show the magnetic field lines of the added magnet.', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/6p7d0ml.jpg', 'Who knew? The mysterious Blue People of Kentucky', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('http://i.imgur.com/uUYoVs2h.gif', 'Novascope', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/WzWhiA4.jpg', 'This Week in Science!!!!', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/6nsPRAd.jpg', 'I can''t wait to read hentai without opening the book', 'science_and_tech', 'funny');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/6jppC0g.gif', 'We made a robot stove', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('http://i.imgur.com/GqB5uIrh.gif', 'Titanium and High Carbon Damascus Steel Ring', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/TC592fk.jpg', 'Happy 92nd birthday.. Sir David Attenborough! ', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('http://i.imgur.com/h4NPHkoh.gif', 'Watering fan.', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/73HZDul.jpg', 'Did this technology ever progress?', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/SSNWSbM.jpg', 'Educate yourself', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/BM9lTp0.mp4', 'Cleaning solar panels', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/se3hfx7.jpg', 'It''s all in the dose', 'science_and_tech', 'awesome');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/nq8g5gl.jpg', 'Fork- Antietam National Battlefield.. MD (3D)', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/GzWbIe3.jpg', 'Blast from the past.. vintage ww2 engineering books', 'science_and_tech', 'None');
+INSERT INTO Science_and_tech VALUES('https://i.imgur.com/GKijMJ8.jpg', 'When drying a solution of small and uniform particles.. they often tend to spontaneously self assemble into a close packed crystal.. an effect that is surprisingly due by entropy.', 'science_and_tech', 'awesome');
