@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Davids Stash</title>
+<title>David's Stash</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -56,6 +56,43 @@ echo '<div class="w3-row-padding w3-padding-16 w3-center">';
 if (count($tables) != 0) {
   foreach ($tables as $value) {
     while($row=mysqli_fetch_array($value)) {
+      echo '<div class="w3-quarter">';
+      $tmp = $row['Url'];
+      $tmp2 = $row['Title'];
+      echo '<img src='.$tmp.' style="width:100%">';
+      echo '<h4>'.$tmp2.'</h4>';
+      echo '</div>';
+    }
+  }
+} else {
+  for ($i = 0; $i < 3; $i++) {
+    $rando = rand(0, 9);
+    $value = "";
+    if ($rando == 0) {
+      $value = "Awesome";
+    } elseif ($rando == 1) {
+      $value = "Aww";
+    } elseif ($rando == 2) {
+      $value = "Creativity";
+    } elseif ($rando == 3) {
+      $value = "Current_events";
+    } elseif ($rando == 4) {
+      $value = "Dog";
+    } elseif ($rando == 5) {
+      $value = "Funny";
+    } elseif ($rando == 6) {
+      $value = "Gaming";
+    } elseif ($rando == 7) {
+      $value = "Inspiring";
+    } elseif ($rando == 8) {
+      $value = "Reaction";
+    } else {
+      $value = "Science_and_tech";  
+    }
+
+    $sql="SELECT * FROM $value ORDER BY RAND() LIMIT 4";
+    $result = mysqli_query($mysqli, $sql);
+    while($row = mysqli_fetch_array($result)) {
       echo '<div class="w3-quarter">';
       $tmp = $row['Url'];
       $tmp2 = $row['Title'];
