@@ -1,0 +1,67 @@
+DROP TABLE IF EXISTS Current_events;
+CREATE TABLE Current_events(
+ Url  VARCHAR(40) primary key,
+ Title    VARCHAR(200),
+ One VARCHAR(30),
+ Two   VARCHAR(30));
+
+INSERT INTO Current_events VALUES('https://i.imgur.com/yX9ETXw.jpg', 'Trump sad that his minions are turning', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/IEClqNu.jpg', 'Tom Brady roasted for Met Gala outfit', 'current_events', 'funny');
+INSERT INTO Current_events VALUES('https://i.imgur.com/mFhKyzh.jpg', 'So true', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/XYmLjOP.jpg', '*David Attenborough Voice - "Here we see the lion teaching its young cub to roar"', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/0mQEEgG.jpg', 'HAYLE NAW', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/RdZVLt8.jpg', 'Bill and Ted 3 is going to be awesome.', 'current_events', 'funny');
+INSERT INTO Current_events VALUES('https://i.imgur.com/3ypAn8v.jpg', 'It''s May 9th', 'current_events', 'funny');
+INSERT INTO Current_events VALUES('https://i.imgur.com/Vh63kZI.jpg', 'Hawaii gets lava covered roads.. Poland gets chocolate.. thats 1- Nil America.. go team Europe.. now where''s there an overturned rice crispie truck when ya need one.. free coco pops!!', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/2TnjH5y.jpg', 'It came from twitter', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/VaJWttL.jpg', 'What a world', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/k4yIJ6h.jpg', 'Olympics just got 100% better', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/orSz38q.jpg', 'A legacy suited to His Type of Leadership', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/Wn3tPC6.jpg', 'Good guy Dr. Ken Jeong Stops Stand Up For A Medical Emergency', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/PyMeH71.jpg', 'Just Curious', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/nWA9Uie.jpg', 'Me 100% of the time', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/8hXeria.jpg', 'Lava', 'current_events', 'funny');
+INSERT INTO Current_events VALUES('https://i.imgur.com/c7abTm1.jpg', 'Well if you''re gonna do it.. might as well be the best!', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/t10qT8Q.jpg', 'This guy was the actual mayor during 9/11', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/Zycs7ex.jpg', 'False allegations', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/k4DTrZr.jpg', 'Winking Woman Wednesday', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/HsHtwdi.jpg', 'pollen bomb.', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/RyvFzGu.jpg', '12 tons of liquid chocolate spilled on polish highway', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/qIc4XuX.jpg', 'You anti immigrant people need only to fill the positions left open by your presidents policies', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/skre5bg.jpg', 'Mormons break from Boy Scouts of America. Are founding their own scouting organization', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/Fh19iu0.jpg', 'California', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/HSNHqur.jpg', 'As the world falls apart.. we need an enemy to pull us back together', 'current_events', 'funny');
+INSERT INTO Current_events VALUES('https://i.imgur.com/y69wxIh.jpg', 'Iron Maiden', 'current_events', 'creativity');
+INSERT INTO Current_events VALUES('https://i.imgur.com/sk3THhj.jpg', 'Instead of entering a mandatory drug treatment program.. this guy chose to break his leg.. pelvis and fracture his skull.', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/dlpX8EB.jpg', 'White apologist gets offended for black people...', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/NjnLFAj.png', 'Nice.', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/0eTGAjn.jpg', 'Yup', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/IICv3ki.jpg', 'Trump is like the God of Unintended Consequences...', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/Ld9cwbn.png', 'The sweet nectar inside tastes delicious', 'current_events', 'funny');
+INSERT INTO Current_events VALUES('https://i.imgur.com/mhuA4um.jpg', 'They have every right to be afraid', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/ZGKzHTt.jpg', '9gag stays on the asshole side.', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/NTX7xbi.jpg', 'Always this', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/zhdwzaA.jpg', 'Not bad 10 minutes', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/8Zgv3VD.jpg', 'To whoever just stole my drink from my lunch bag out of the office fridge.. I will find out who you are...', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/KLX2ygE.jpg', 'So.. my buddy took this photo of the hailstorm over my city today...', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/D4gAKdj.jpg', 'How conspiracy theorists sound.', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/O85Y3py.jpg', 'WoW and Venezuela', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/WSzfy9X.jpg', 'Just bought what do u guys think..', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/SaLEA29.jpg', 'Your News.. Today: May 8.. 2018', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/QQyTXlZ.jpg', 'This is how it starts.', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/EOCzagd.jpg', 'Red Alert for Net Neutrality', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/QFJXlWz.jpg', 'Struggle', 'current_events', 'funny');
+INSERT INTO Current_events VALUES('https://i.imgur.com/8T988rd.jpg', 'A little Spring Time in Holland', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/AGYKihX.jpg', 'Giant Chicken Tenders In Hawaii Right Now', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/0srAyZ6.png', 'Just saying', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/xI6XEcO.jpg', '"Currently Africa by Toto is winning for our graduation song and someone doesn''t approve."', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/Z9vbuva.jpg', 'I want them all.', 'current_events', 'funny');
+INSERT INTO Current_events VALUES('https://i.imgur.com/ccJ37ES.jpg', 'Darwin''s Finches', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/3uj8bor.jpg', 'So... much... pollen...', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/erngKu5.jpg', 'When you value the company of your pets more than humans..', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/PInZ400.jpg', 'Are we not doing phrasing anymore?', 'current_events', 'funny');
+INSERT INTO Current_events VALUES('https://i.imgur.com/tK0gRGl.jpg', 'Currently going through this with my SO (OC)', 'current_events', 'funny');
+INSERT INTO Current_events VALUES('https://i.imgur.com/ZS2pdo5.jpg', 'Resist Dump', 'current_events', 'None');
+INSERT INTO Current_events VALUES('https://i.imgur.com/se3hfx7.jpg', 'It''s all in the dose', 'current_events', 'awesome');
+INSERT INTO Current_events VALUES('https://i.imgur.com/co8b3l7.gif', 'MRW I see that a Russian oligarch funneled money to Trump''s lawyer and think joining an Imgur conversation would be a good idea~', 'current_events', 'reaction');
+INSERT INTO Current_events VALUES('https://i.imgur.com/6nsPRAd.jpg', 'I can''t wait to read hentai without opening the book', 'current_events', 'funny');

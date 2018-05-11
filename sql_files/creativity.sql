@@ -1,0 +1,67 @@
+DROP TABLE IF EXISTS Creativity;
+CREATE TABLE Creativity(
+ Url  VARCHAR(40) primary key,
+ Title    VARCHAR(200),
+ One VARCHAR(30),
+ Two   VARCHAR(30));
+
+INSERT INTO Creativity VALUES('https://i.imgur.com/tnO8dyY.jpg', '''lovers''  90cmx90cm acrylics  on canvas', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/uHDcGHG.jpg', 'Behind the scenes: A Hershey''s ad', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/mFhKyzh.jpg', 'So true', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/Wy0oP0x.jpg', 'smol beans', 'creativity', 'aww');
+INSERT INTO Creativity VALUES('http://i.imgur.com/bTqH9rBh.gif', '"Strike!"', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/WwKLEIP.jpg', 'Art I''ve painted this week.', 'creativity', 'None');
+INSERT INTO Creativity VALUES('http://i.imgur.com/7vXLJ9Bh.gif', 'How I like to imagine Reddit bans go down..', 'creativity', 'reaction');
+INSERT INTO Creativity VALUES('https://i.imgur.com/SOPMV17.jpg', 'Dark souls minis', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/ofsjpTm.jpg', 'Carved avocado pits', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/i26n19l.jpg', 'The worlds largest pizza delivery', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/f7dBQM7.png', 'Lorena1998 Commission', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/G9pBs71.jpg', 'D&D Necromancer.. Fletch (OC)', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/YGhsPwF.jpg', 'This is a photo taken in New Mexico of the sun with a perfect circle glare around it with clouds', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/IG7iUfv.jpg', 'Psyduck Polygon Art', 'creativity', 'gaming');
+INSERT INTO Creativity VALUES('https://i.imgur.com/5LcEQrt.jpg', 'New post  Dedicated to everyone who closed imgur a moment ago!', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/JrLxwHf.jpg', 'developing my own style...', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/IzpbemW.jpg', 'Part 5 of my Solar System Cross-stitch', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/t10qT8Q.jpg', 'This guy was the actual mayor during 9/11', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/RjLZfMA.jpg', 'Tent', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/0E15g5B.jpg', 'I crochet a flower every day of 2018. Day 129. (May 9)', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/jPWl7lU.jpg', 'SAFE Hammering!', 'creativity', 'funny');
+INSERT INTO Creativity VALUES('https://i.imgur.com/kEAvywt.jpg', 'Sketches from today', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/tsrJrrl.jpg', 'Great commercial', 'creativity', 'funny');
+INSERT INTO Creativity VALUES('https://i.imgur.com/ML90vdW.jpg', 'Lust. Trust and Bondage....', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/EMz3B5X.jpg', 'Sketch from today', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/7KCKWoM.jpg', 'We have to rethink everything!', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/0eTGAjn.jpg', 'Yup', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/lMKQ1Ia.jpg', 'Finished inking in the Priestess.. only a few more cards to go in the set!', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/xzZXYNE.jpg', 'Science Fiction Animation! "Robot Will Protect You"', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/H0dXmhj.jpg', 'Blue glass and a white rose', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/q4iwxYn.jpg', '''walking to school in autumn''  150cmx100cm acrylics/pastels on canvas', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/pVizgMx.jpg', 'Painting with thread. I''m in the process of making this piece a DIY kit for beginners in hand embroidery', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/r41sZ0g.jpg', 'Gorgeous repainted dolls', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/y69wxIh.jpg', 'Iron Maiden', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/MQmVbFa.gif', 'Afraid of heights? ', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/a09pIeF.jpg', 'Portrait done', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/qnrWp1x.jpg', 'We drew a picture together!', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/5rVWVyU.jpg', 'I did a thing.', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/UWFa3HG.jpg', 'Annihilation ballpoint', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/lCYvvLf.jpg', 'The Sun', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/gvMHWQD.jpg', 'my life is a lie', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/VYVehgN.jpg', '"This mini van I found in Philly is called Vanny Devito"', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/JJOQFhZ.jpg', 'Yeah... High five!', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/D4gAKdj.jpg', 'How conspiracy theorists sound.', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/KVZ2Tvd.jpg', 'My clients asked for Pokemon stuff.. so I tried to deliver', 'creativity', 'gaming');
+INSERT INTO Creativity VALUES('https://i.imgur.com/hoH2zkf.jpg', 'Head Scratches', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/O56ZKtJ.jpg', 'possibilities ~', 'creativity', 'funny');
+INSERT INTO Creativity VALUES('https://i.imgur.com/wZaibFV.jpg', '3D models we made for the game FAR: Lone Sails', 'creativity', 'gaming');
+INSERT INTO Creativity VALUES('https://i.imgur.com/khbvoU5.jpg', 'I’m super proud of this.', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/kwJtJI1.jpg', 'LEGO Imperial Interdictor Cruiser', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/pcK1Wro.jpg', 'World is a canvas', 'creativity', 'None');
+INSERT INTO Creativity VALUES('https://i.imgur.com/K9NW9af.gif', 'I too appreciate when my server doesn''t hover right over me to refill my drink.', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/YSH61xr.jpg', 'I don''t know why but I love it.', 'creativity', 'funny');
+INSERT INTO Creativity VALUES('https://i.imgur.com/oO7NjMN.jpg', 'Flash mob? Nope.. just hot.', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/L2xIjJH.jpg', 'Gyarados Pokèglobe I made', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/8JVaSVC.jpg', 'Snowman - pixel art - time lapse', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/se3hfx7.jpg', 'It''s all in the dose', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/DHknrUL.jpg', 'Just sent a lucky customer out this beautiful Walnut Burl ring with maple core.. stainless steel bands and a teal German glass inlay!!!! Like?', 'creativity', 'funny');
+INSERT INTO Creativity VALUES('http://i.imgur.com/PvtIq75h.gif', 'One foot slide.', 'creativity', 'awesome');
+INSERT INTO Creativity VALUES('https://i.imgur.com/3ZNJvRd.jpg', 'From a scribble to this (6 images)', 'creativity', 'None');

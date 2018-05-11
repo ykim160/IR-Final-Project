@@ -1,0 +1,66 @@
+DROP TABLE IF EXISTS Inspiring;
+CREATE TABLE Inspiring(
+ Url  VARCHAR(40) primary key,
+ Title    VARCHAR(200),
+ One VARCHAR(30),
+ Two   VARCHAR(30));
+
+INSERT INTO Inspiring VALUES('https://i.imgur.com/fkbXaYg.jpg', 'The Road To Success', 'inspiring', 'creativity');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/2mzZEa2.jpg', 'Bled Island In The Alps Looks So Damn Cosy', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/Io6ogLW.jpg', 'Cozy Hamlet In Hallstatt.. Austria', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/lqnl5R2.jpg', 'Offered Job From Owner In Middle of Interview', 'inspiring', 'funny');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/VPJ97W6.jpg', 'Just some random quotes', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/M80du5y.jpg', 'A recent custom ring we did for a customer! Green Maple Burl with a copper guitar string inlay and copper core! Like/Dislike?', 'inspiring', 'funny');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/tgHPOq0.jpg', 'Columbus NM', 'inspiring', 'creativity');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/PsP6j2q.jpg', 'Gerard way quote', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/o8GPXom.jpg', 'The farthest view of Earth seen by human eyes', 'inspiring', 'awesome');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/zGTqDXz.jpg', 'Stay Focused. Have A Great Day', 'inspiring', 'awesome');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/wN1P9PN.jpg', 'instagram @WillLull', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/CYeR50f.jpg', 'Curb your enthusiasm', 'inspiring', 'funny');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/BI4DstW.jpg', 'I asked the universe for a sign', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/jGLY9iV.jpg', 'Autumn landscape', 'inspiring', 'awesome');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/4Vejv3V.jpg', 'Id hate to be the bear who loses their virginity to this wanker', 'inspiring', 'awesome');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/KIW5fyp.jpg', 'More pinecones for imgur', 'inspiring', 'aww');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/GAYkivc.jpg', '12 pornstars that will make you say.. “Hey.. wait a minute.. those aren’t 12 pornstars. That’s only one pornstar and 11 quotes by Mr. Miyagi.”', 'inspiring', 'funny');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/WTkXyUg.jpg', 'Living alone is much better than living with fake people..', 'inspiring', 'awesome');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/D7OePFg.jpg', 'Here''s this man''s story', 'inspiring', 'funny');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/fQKl9JK.jpg', 'Low Tides And High Tides In Great Britain', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/8yAHZka.jpg', 'It’s a time of reflection', 'inspiring', 'funny');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/TOdi7qF.jpg', 'Civil rights demonstrator arrested - Alabama.. 1963 (Colourised) ', 'inspiring', 'creativity');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/EkDzlmh.jpg', 'Simultaneous view of Earth and Moon during the Apollo 17 deep space EVA', 'inspiring', 'awesome');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/VyINd7O.jpg', 'Now that''s a ring', 'inspiring', 'creativity');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/RdOWH30.jpg', '65 A.C. dick pic', 'inspiring', 'funny');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/LIhiNld.jpg', 'The first step towards success', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/vzr6Csp.jpg', 'High Quality posters that you should DEFINITELY look at and consider partaking in the activities advertised therein', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/NrI8A0k.jpg', 'it''s time to wake up', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/FGpvQ8b.jpg', 'Oldest Menorah?', 'inspiring', 'creativity');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/44ND1cb.jpg', 'Mother Nature Is Always Grand', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/AJazwda.jpg', 'Vehicle and Target', 'inspiring', 'awesome');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/oqsKsX4.jpg', 'Anon Copes with his Cancer', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/bPXCot7.jpg', 'Relationship goals...', 'inspiring', 'funny');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/GwnLHQ2.jpg', 'Celebrating: rare black rhinos make 3..000 mile journey to new home in Chad', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/bGHnkgt.png', 'Wee Cozy Teepee', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/JJOQFhZ.jpg', 'Yeah... High five!', 'inspiring', 'awesome');
+INSERT INTO Inspiring VALUES('http://i.imgur.com/gHY9eirh.gif', 'Danish Pilot Has Skills', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/cyUeR7w.jpg', 'See my profile for more pinecones.', 'inspiring', 'aww');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/wwTnatu.jpg', 'Todays dinner; oven baked eggplant with hummus.. raita.. asparagus and curry with mushrooms and cashew nuts..', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/Gch6iIo.jpg', 'STAIRS by PELNUM', 'inspiring', 'creativity');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/PKGVTgk.png', 'Happy cake day to me', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/uAmO3os.jpg', 'So I rescued an orphaned Kitten', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/UZSptM2.jpg', 'Epic Trick Shots', 'inspiring', 'awesome');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/Qw6UWuJ.jpg', 'Pomegranate', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/rbIUPMB.jpg', 'Twelve Apostles great ocean', 'inspiring', 'awesome');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/EqUWwLK.jpg', 'Hmmm', 'inspiring', 'funny');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/FeVZnMZ.jpg', '"Unimportant Things" can still be fun!', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/WE4KaLL.jpg', 'Harvesting Like A Boss', 'inspiring', 'awesome');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/2HSzUAe.jpg', 'Love with all intensity', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/b9wfJpl.jpg', 'Pinecones on pinecones on pinecones', 'inspiring', 'aww');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/Vxizfoi.jpg', 'Penguins in Antartica', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/vcc011k.jpg', 'New personal record!', 'inspiring', 'awesome');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/InI0gOV.jpg', 'Spin polishing the Jack Daniel’s whiskey barrel wood ring with worn guitar string inlay!', 'inspiring', 'funny');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/AfF3ahM.jpg', 'Earth from Apollo 15', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/4lsnjjS.jpg', 'These are not photographs.. they are freaking oil paintings by Yigal Ozeri', 'inspiring', 'None');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/DHknrUL.jpg', 'Just sent a lucky customer out this beautiful Walnut Burl ring with maple core.. stainless steel bands and a teal German glass inlay!!!! Like?', 'inspiring', 'funny');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/Z3QHzZG.jpg', 'Earth and Moon as seen from Saturn', 'inspiring', 'awesome');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/IfjC1LK.jpg', 'Nothing.. just my dog.. rescued.. smiling and happy as fuck', 'inspiring', 'dog');
+INSERT INTO Inspiring VALUES('https://i.imgur.com/tj27QOF.jpg', 'A rare norwegian delicacy known as soup with pork knuckle.. barley.. carrots.. potatoes and yellow pass', 'inspiring', 'None');
