@@ -1,0 +1,5 @@
+requests
+imgurpython
+bs4
+urllib
+nltk
