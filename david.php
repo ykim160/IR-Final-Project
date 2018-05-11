@@ -41,31 +41,89 @@ h4 {
 include 'open.php';
 
 $search = $_POST['userinput'];
-$tokenized = ucwords(strtolower($search));
+$tokenized = ucwords(strtolower($search));;
 $parts = preg_split('/\s+/', $tokenized);
 $queries = array();
-foreach ($parts as $value) {
-  $sql="SELECT * FROM $value";
-  $result = mysqli_query($mysqli, $sql);
-  array_push($queries, $result);
-}
-$tables = array_filter($queries);
 
-echo '<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:50px">';
-echo '<div class="w3-row-padding w3-padding-16 w3-center">';	
-if (count($tables) != 0) {
-  foreach ($tables as $value) {
-    while($row=mysqli_fetch_array($value)) {
-      echo '<div class="w3-quarter">';
-      $tmp = $row['Url'];
-      $tmp2 = $row['Title'];
-      echo '<img src='.$tmp.' style="width:100%">';
-      echo '<h4>'.$tmp2.'</h4>';
-      echo '</div>';
+foreach ($parts as $value) {
+  if ($value!="Attack"&&$value!="Attributes"&&$value!="Club"&&$value!="Country"&&$value!="Defense"&&$value!="Midfield"&&$value!="Player"&&$value!="Plays_in"&&$value!="Positions"&&$value!="Preferred"&&$value!="Value") { 
+    if ($value == "Current" || $value == "Events" || $value == "Event") {
+      $value = "Current_events";
+    }
+    if ($value == "Science" || $value == "Tech" || $value == "Technology") {
+      $value = "Science_and_tech";
+    } 
+    $sql="SELECT * FROM $value";
+    $result = mysqli_query($mysqli, $sql);
+    if ($result != null) {
+      array_push($queries, $value);;
     }
   }
+}
+
+$numb = count($queries);
+if ($numb != 0) {
+  $sql="SELECT * FROM (";
+  foreach ($queries as $value) {
+    if ($numb == 1) {
+        $sql.= "SELECT * FROM $value) as U";
+    } else {
+        $sql.= "SELECT * FROM $value UNION ";
+        $numb--;
+    }
+  }
+  $sql.=";";
+  $result = mysqli_query($mysqli, $sql);
+
+  $import = array();
+  $title = array();
+
+  while($row=mysqli_fetch_array($result)) {
+    $url = $row['Url'];    
+    $one = $row['One'];
+    $two = $row['Two'];
+    $name = $row['Title'];
+    $rank = 0;
+    foreach ($queries as $value) { 
+      if ($one == strtolower($value)) {
+        $rank += 5;
+      }
+      if ($two == strtolower($value)) {
+        $rank += 2;
+      }
+    }
+ 
+    if (array_key_exists($url, $import)) {	    
+      $import[$url] += $rank;
+    } else {
+      $import[$url] = $rank;
+    }
+    
+    $title[$url] = $name;
+  }
+  arsort($import); 
+
+  echo '<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:50px">';
+  echo '<div class="w3-row-padding w3-padding-16 w3-center">';	
+  $limit = 0;
+  foreach ($import as $key => $value) {
+    if ($limit > 60) {
+      break;
+    } else {
+      echo '<div class="w3-quarter">';
+      echo '<img src='.$key.' style="width:100%">';
+      echo '<h4>'.$title[$key].'</h4>';
+      echo '</div>';
+    }
+    $limit += 1;
+  }
+  echo '</div>';
+  echo '</div>';
 } else {
-  for ($i = 0; $i < 3; $i++) {
+  echo '<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:50px">';
+  echo '<div class="w3-row-padding w3-padding-16 w3-center">';	
+      
+  for ($i = 0; $i < 5; $i++) {
     $rando = rand(0, 9);
     $value = "";
     if ($rando == 0) {
@@ -101,9 +159,9 @@ if (count($tables) != 0) {
       echo '</div>';
     }
   }
+  echo '</div>';
+  echo '</div>';
 }
-echo '</div>';
-echo '</div>';
 
 ?>
 
