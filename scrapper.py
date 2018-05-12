@@ -14,7 +14,7 @@ from collections import defaultdict
 
 import re
 from bs4 import BeautifulSoup
-from urllib import urlopen
+from urllib.request import urlopen
 
 image_src_indicator_0 = "https://i.imgur.com"
 image_src_indicator_1 = "http://i.imgur.com"
@@ -178,7 +178,7 @@ def make_csv_file(filename, links):
 if __name__ == "__main__":
     client = authenticate()
     for tag in CATAGORY:
-        print "MAKING CSV FOR", tag.upper(), "TAG"
+        print ("MAKING CSV FOR", tag.upper(), "TAG")
         links = scrap_frontpage(client, tag)
         make_csv_file(tag + ".csv", links)
 
