@@ -173,8 +173,6 @@ def make_csv_file(filename, links):
     my_csv_file.close()
 
 
-
-# If you want to run this as a standalone script, so be it! - fuck off nerd
 if __name__ == "__main__":
     client = authenticate()
     for tag in CATAGORY:
