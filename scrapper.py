@@ -1,10 +1,44 @@
 #!/usr/bin/env python3
 
 '''
+        Usage: python scrapper.py
+
         This is a scrapper that scraps Imgur by its various categories.
         In order to run the scrapper, you need an API token that is provided
         by Imgur.
-	
+
+        To use this scrapper please install imgurpython and the necessary
+        dependancies needed to run this scrapper.
+
+        Also, inorder to run this you need a imgur account and a API token.
+
+        The scrapper by default scrapes images that are in the "viral" section
+        with a window of time of a week. This means that the scrapper will
+        scrape the images that are currently viral this current week.
+
+        The scrapper will be scraping by one of the big tags.
+        These tags are the following:
+        "dog"
+        "science_and_tech"
+        "current_events"
+        "gaming"
+        "awesome"
+        "inspiring"
+        "creativity",
+        "aww"
+        "reaction"
+        "funny"
+
+        More catagories can be added by adding them in the CATAGORY list.
+
+        A single imgur item contains the following instances: image url,
+        title, description, and other meta information.
+
+        With this project, we decided to extract a secondary feature from
+        the title, description, and other meta information.
+
+        After the extraction, the program will make csv files of the images,
+        its title, its primary tag, and its secondary tag.
 '''
 
 from imgurpython import ImgurClient
@@ -49,9 +83,7 @@ def authenticate():
     credentials = client.authorize(pin, 'pin')
     client.set_user_auth(credentials['access_token'], credentials['refresh_token'])
 
-    print("Authentication successful! Here are the details:")
-    print("   Access token:  {0}".format(credentials['access_token']))
-    print("   Refresh token: {0}".format(credentials['refresh_token']))
+    print("Authentication successful.")
 
     return client
 
